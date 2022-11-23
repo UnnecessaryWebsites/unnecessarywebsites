@@ -1,0 +1,75 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*Header*/
+.header {
+    padding: 80px;
+    text-align: center;
+    background-color: #E63946;
+    color: #F1FAEE;
+}
+
+/*Navbar*/
+ul {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #1D3577;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #F1FAEE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #182c61;
+}
+#active {
+    background-color: #457B9D;
+}
+
+/*Welcome Box*/
+.welcome-box {
+    text-align: left;
+    padding: 25px;
+    background-color: whitesmoke;
+    color: #182c61;
+    border-style: none none solid none;
+}
+
+.welcome-box h2 {
+    font-size: 40px;
+}
+
+/*TikTok Box*/
+.tiktok-box {
+    text-align: left;
+    padding: 25px;
+    background-color: whitesmoke;
+    color: #182c61;
+    border-style: none none solid none;
+}
+
+.tiktok-box h2 {
+    font-size: 40px;
+}
+
+/*Thank You Box*/
+.thank-you-box {
+    text-align: left;
+    padding: 25px;
+    background-color: whitesmoke;
+    color: #182c61;
+    border-style: none none solid none;
+}
+
+.thank-you-box h2 {
+    font-size: 40px;
+}

@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 400px;
+    height: 270px
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #42855B;
+    color: white;
+    border-radius: 20px;
+}
+
+.header > h1 {
+    font-size: 50px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    flex: 80%;
+    padding: 20px;
+    background: rgb(223, 222, 222);
+    border-radius: 20px;
+}
+
+.right {
+    flex: 20%;
+    padding: 20px;
+    background: #D3D3D3;
+    border-radius: 20px;
+}
+
+.effects {
+    position: relative;
+    left: 25px;
+}
