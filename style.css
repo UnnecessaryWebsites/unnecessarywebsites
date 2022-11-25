@@ -29,8 +29,10 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: #182c61;
+    transition: linear 0.25s;
+    background-color: #132350;
 }
+
 #active {
     background-color: #457B9D;
 }
